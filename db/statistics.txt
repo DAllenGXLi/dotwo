@@ -1,0 +1,4 @@
+angry	126	200
+fear	4	200
+happy	74	200
+sad	74	200

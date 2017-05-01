@@ -1,0 +1,47 @@
+爬取端
+	1 制定爬取数据结构
+	2 编写爬取类
+	3 编写模型类
+
+分析端
+
+展示端
+
+comments api: http://comment.news.163.com/api/v1/products/a2869674571f77b5a0867c3d71db5856/threads/CFI7K0480001875P/comments/newList?offset=90&limit=30
+爬取端数据结构
+新闻
+{
+	id: "CFGAJ8LF0001875P",
+	title: "精神病人受"萨德"影响病情复发 持刀要去韩国杀人",
+	date: "2017-02-21",
+	description: "精神病人受"萨德"影响病情复发 持刀要去韩国杀人",
+	url: "http://news.163.com/17/0314/13/CFGAJ8LF0001875P.html",
+	origin: "网易新闻",
+}
+
+评论
+{
+	count: 40,
+	comments: {
+
+		31131803: {
+
+			id: 31131803,
+			newId: 'CFGAJ8LF0001875P',
+			date: "2017-02-21",
+			time: "11:35:04",
+			vote: 2410,
+			against: 1,
+			content: "失误是难免的，感觉没必要上纲上线。",
+
+			user: {
+				userId: 110753360,
+				nickname: "dou",
+				location: "江苏省宿迁市",
+				portrait_url: "http://tva2.sinaimg.cn/crop.0.0.750.750.180/005BBA5Ajw8fcw6ozxu5kj30ku0kugn2.jpg",
+			},
+		},
+		...
+
+	},
+}

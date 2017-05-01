@@ -1,0 +1,55 @@
+CREATE TABLE `comments` (
+  `id` varchar(64) NOT NULL,
+  `user_id` varchar(64) DEFAULT NULL,
+  `news_id` varchar(64) NOT NULL,
+  `date` date DEFAULT NULL,
+  `time` time DEFAULT NULL,
+  `content` varchar(4096) NOT NULL,
+  `vote` int(11) DEFAULT NULL,
+  `against` int(11) DEFAULT NULL,
+  `attitude` smallint(5) unsigned DEFAULT NULL COMMENT '0表示中立，1表示积极，2表示消极',
+  PRIMARY KEY (`id`),
+  KEY `user_comment` (`user_id`),
+  KEY `news_comment` (`news_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `extra_words` (
+  `word` varchar(32) NOT NULL,
+  PRIMARY KEY (`word`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `newslist` (
+  `id` varchar(64) NOT NULL,
+  `title` varchar(512) NOT NULL,
+  `date` date NOT NULL,
+  `url` varchar(256) NOT NULL,
+  `origin` varchar(128) DEFAULT NULL,
+  `ishandle` tinyint(4) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `statistics` (
+  `id` varchar(32) NOT NULL,
+  `count` int(10) unsigned NOT NULL DEFAULT '0',
+  `max` int(10) unsigned NOT NULL DEFAULT '200',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `users` (
+  `id` varchar(64) NOT NULL,
+  `nickname` varchar(64) DEFAULT NULL,
+  `location` varchar(128) DEFAULT NULL,
+  `portrait_url` varchar(256) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `words_frequency` (
+  `word` varchar(32) NOT NULL,
+  `happy` int(10) unsigned NOT NULL DEFAULT '100',
+  `angry` int(10) unsigned NOT NULL DEFAULT '100',
+  `fear` int(10) NOT NULL DEFAULT '100',
+  `sad` int(10) unsigned NOT NULL DEFAULT '100',
+  `sum` int(10) unsigned NOT NULL DEFAULT '300',
+  PRIMARY KEY (`word`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>dotwo</title>
+
+    <!-- Bootstrap -->
+    <link href="../static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- navigation -->
+<div class="container-fluid no_space">
+    <div style="margin-bottom: 50px">
+        <nav class="navbar navbar-inverse navbar-fixed-top no_space">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">dotwo</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">
+                                Link
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Link</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Something else here</a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li>
+                                    <a href="#">Separated link</a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li>
+                                    <a href="#">One more separated link</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search"></div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">Link</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Something else here</a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li>
+                                    <a href="#">Separated link</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+<!-- end of navigation -->
+<!-- list of news -->
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <div class="media">
+                    <!-- <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="../images/img3.jpg" alt="..." style="height: 128px; "></a>
+                </div>
+                -->
+                    <div class="media-body">
+                        <div class="origin">
+                            <img class="origin_img" src="../static/images/wangyi.jpeg">
+                            <a class="remark">来源: 网易新闻</a>
+                        </div>
+                        <!-- 触发详情页 -->
+                        <a class="collapsed" id="collapseOneTrigger" role="button" data-toggle="collapse"
+                           data-parent="#accordion" href="#collapseOne" aria-controls="collapseOne"
+                           aria-expanded="false">
+                            <h5 class="media-heading">
+                                广州27岁程序员出租屋猝死 没女友被欠5个月工资
+                            </h5>
+                            <p class="remark no_space">
+                                <span style="float: left;" class="date">日期: 2017/4/22</span>
+                                <span style="float: left;">作者: 张伊欣</span>
+                            </p>
+                            <p class="news_summary">
+                            南都讯见习记者张伊欣记者 连楷 10月7日，家住广州天河区岑村新南街8巷的一名27岁湖南籍男子徐东(化名)被发现在租住的家中死亡，被发现时尸体已…
+                            </p>
+                            <img class="news_img" src="../static/images/img4.jpeg" alt="...">
+                            <img class="news_img" src="../static/images/img5.jpeg" alt="...">
+                            <img class="news_img" src="../static/images/img6.jpeg" alt="..."></div>
+                    </a>
+                    <!-- end of 出发详情页 -->
+                </div>
+            </h4>
+        </div>
+        <!-- 下拉详情页 -->
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body sub_panel">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">社会效应</div>
+                    <div class="panel-body no_space">
+                        <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+                        <div id="echarts_main" style="height:300px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<!-- end of list of news -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../static/js/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../static/bootstrap/js/bootstrap.min.js"></script>
+<!-- ECharts单文件引入 -->
+<script src="../static/echarts/echarts.js"></script>
+<script src="../static/js/main.js"></script>
+
+</body>
+</html>
