@@ -19,6 +19,10 @@
     <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../static/js/jquery.js"></script>
+    <!-- ECharts单文件引入 -->
+    <script src="../static/js/echarts.min.js"></script>
 </head>
 <body>
 <!-- navigation -->
@@ -123,7 +127,6 @@
 
     <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="headingOne">
-            <h4 class="panel-title">
                 <div class="media">
                     <!-- <div class="media-left">
                     <a href="#">
@@ -151,36 +154,47 @@
                             </p>
                             <img class="news_img" src="../static/images/img4.jpeg" alt="...">
                             <img class="news_img" src="../static/images/img5.jpeg" alt="...">
-                            <img class="news_img" src="../static/images/img6.jpeg" alt="..."></div>
+                            <img class="news_img" src="../static/images/img6.jpeg" alt="...">
                     </a>
                     <!-- end of 出发详情页 -->
                 </div>
-            </h4>
         </div>
-        <!-- 下拉详情页 -->
-        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-            <div class="panel-body sub_panel">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">社会效应</div>
-                    <div class="panel-body no_space">
+            <!-- 下拉详情页 -->
+            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_' + data.id + '">
+                <ul class="nav nav-tabs collapse_nav" role="tablist">
+                    <li role="presentation" class="active"><a href="#emotion" aria-controls="emotion" role="tab" data-toggle="tab">情感分布</a></li>
+                    <li role="presentation"><a href="#emotion-locaton" aria-controls="emotion-locaton" role="tab" data-toggle="tab">情感-地域</a></li>
+                    <li role="presentation"><a href="#localtion" aria-controls="localtion" role="tab" data-toggle="tab">地域分布</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="emotion">
                         <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-                        <div id="echarts_main" style="height:300px;"></div>
+                        <div id="echarts_emotion_main1" class="echarts_container"></div>
                     </div>
+                    <div role="tabpanel" class="tab-pane" id="emotion-locaton">
+                        <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+                        <div id="echarts_main2"></div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="localtion">
+                        <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+                        <div id="echarts_main3"></div>
+                    </div>
+                    <!-- end of Tab panes -->
                 </div>
+                <!-- end of Tab panes -->
             </div>
-        </div>
-    </div>
+                <!-- end of 下拉详情页 -->
 
+    </div>
 
 </div>
 <!-- end of list of news -->
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="../static/js/jquery.js"></script>
+
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="../static/bootstrap/js/bootstrap.min.js"></script>
-<!-- ECharts单文件引入 -->
-<script src="../static/echarts/echarts.js"></script>
+
 <script src="../static/js/main.js"></script>
 
 </body>

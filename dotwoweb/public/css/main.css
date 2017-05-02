@@ -87,3 +87,16 @@ a:hover{
 .sub_panel .panel-heading{
 	padding-bottom: 5px;
 }
+
+ul.collapse_nav {
+	margin-bottom: 10px;
+}
+
+.collapse_nav li{
+	width: 33%;
+	text-align: center;
+}
+
+/*.echarts_container{*/
+	/*height: 300px;*/
+/*}*/
