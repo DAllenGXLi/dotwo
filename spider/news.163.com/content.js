@@ -26,6 +26,12 @@ connection.connect(function (err, result) {
 connection.query('select id, url from newslist where deep_grap=0', function (err, result) {
     if (err) {
         console.log(err);
+        connection.destroy();
+        process.exit(1);
+    } else if(!result) {
+        console.log("详情爬取完毕！");
+        connection.destroy();
+        process.exit(0);
     } else {
         for (var i = 0; i < result.length; i++) {
             request({url:result[i].url,

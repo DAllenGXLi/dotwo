@@ -2,61 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b671b9df-43c4-41d6-ba67-0f4719697bec" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/._.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/._.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/._.jshintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/._.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/._.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/._chart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/._echarts-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/._echarts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/.jshintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._chord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._eventRiver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._force.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._funnel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._gauge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._heatmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._k.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._radar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._scatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._treemap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._venn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/._wordCloud.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/chord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/eventRiver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/force.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/funnel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/gauge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/heatmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/k.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/radar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/scatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/treemap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/venn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/chart/wordCloud.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/echarts-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dotwoweb/public/echarts/echarts.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/run-all.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/run-analyse-all.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/run-app.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/run-comment-user.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/run-content.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/run-list.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dotwoweb/public/css/main.css" afterPath="$PROJECT_DIR$/dotwoweb/public/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dotwoweb/public/js/main.js" afterPath="$PROJECT_DIR$/dotwoweb/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dotwoweb/views/index-backup.ejs" afterPath="$PROJECT_DIR$/dotwoweb/views/index-backup.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dotwoweb/views/index.ejs" afterPath="$PROJECT_DIR$/dotwoweb/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/grab.js" afterPath="$PROJECT_DIR$/spider/grab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/news.163.com/comment-user.js" afterPath="$PROJECT_DIR$/spider/news.163.com/comment-user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/news.163.com/content.js" afterPath="$PROJECT_DIR$/spider/news.163.com/content.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trainning/handler.py" afterPath="$PROJECT_DIR$/trainning/handler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trainning/model.py" afterPath="$PROJECT_DIR$/trainning/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trainning/trainer.py" afterPath="$PROJECT_DIR$/trainning/trainer.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,12 +31,88 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider/news.163.com/list.js">
+      <file leaf-file-name="run-comment-user.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/run-comment-user.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="162">
+              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run-analyse-all.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/run-analyse-all.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="analyse-all.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trainning/analyse-all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dotwoweb/public/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+              <folding>
+                <marker date="1493872390102" expanded="true" signature="2160:2220" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2160:3496" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2160:3547" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2160:3648" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2160:5168" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2160:5206" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2160:5226" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2160:5240" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2245:3462" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2291:3438" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2332:3415" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2332:3433" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2378:3301" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2378:3312" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2378:3322" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2378:3415" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2420:2547" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2420:2569" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2420:2616" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2755:3216" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2755:3240" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2755:3280" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2755:3281" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2755:3301" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2970:2992" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="2970:3033" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="3078:3144" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="3078:3194" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="3114:3126" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="3665:4199" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="3665:4216" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="3665:4260" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="3665:5107" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="3665:5166" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="3665:5168" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="3741:4181" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="4261:5107" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="4341:4466" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="4341:4467" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="4341:4490" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="4341:4603" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="4684:4839" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="4914:5069" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="5168:5169" ph="..." />
+                <marker date="1493872390102" expanded="true" signature="5168:5206" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,93 +120,9 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dotwoweb/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+            <state relative-caret-position="1053">
+              <caret line="39" column="54" lean-forward="false" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dotwoweb/public/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="2" selection-end-line="101" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dotwoweb/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index-backup.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dotwoweb/views/index-backup.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dotwoweb/public/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="131" column="28" lean-forward="false" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
-              <folding>
-                <marker date="1493631478142" expanded="true" signature="1630:1690" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1630:2966" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1630:3017" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1630:3118" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1630:4537" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1630:4575" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1630:4595" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1630:4609" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1715:2932" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1761:2908" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1802:2885" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1802:2903" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1848:2771" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1848:2782" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1848:2792" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1848:2885" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1890:2017" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1890:2039" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="1890:2086" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="2225:2686" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="2225:2710" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="2225:2750" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="2225:2751" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="2225:2771" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="2440:2462" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="2440:2503" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="2548:2614" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="2548:2664" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="2584:2596" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="3135:3669" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="3135:3686" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="3135:3730" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="3135:4476" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="3135:4535" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="3135:4537" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="3211:3651" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="3731:4476" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="3811:3922" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="3811:3972" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="4053:4208" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="4283:4438" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="4537:4538" ph="..." />
-                <marker date="1493631478142" expanded="true" signature="4537:4575" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -178,8 +130,18 @@
       <file leaf-file-name="comment-user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider/news.163.com/comment-user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="459">
+              <caret line="17" column="93" lean-forward="false" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spider/news.163.com/list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -188,8 +150,28 @@
       <file leaf-file-name="grab.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider/grab.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2187">
-              <caret line="81" column="33" lean-forward="true" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+            <state relative-caret-position="4455">
+              <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run-content.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/run-content.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run-all.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/run-all.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -225,6 +207,8 @@
       <find>&lt;!-- end of Tab panes --&gt;</find>
       <find>echarts_emotion_</find>
       <find>collapseOneTrigger</find>
+      <find>console</find>
+      <find>drawEmotionDistribution</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -235,15 +219,24 @@
       <list>
         <option value="$PROJECT_DIR$/spider/news.163.com/list.js" />
         <option value="$PROJECT_DIR$/spider/package.json" />
-        <option value="$PROJECT_DIR$/spider/grab.js" />
         <option value="$PROJECT_DIR$/doc/readme" />
-        <option value="$PROJECT_DIR$/spider/news.163.com/content.js" />
         <option value="$PROJECT_DIR$/dotwoweb/model/model.js" />
         <option value="$PROJECT_DIR$/dotwoweb/public/css/main.css" />
         <option value="$PROJECT_DIR$/dotwoweb/views/index-backup.ejs" />
         <option value="$PROJECT_DIR$/dotwoweb/app.js" />
-        <option value="$PROJECT_DIR$/dotwoweb/views/index.ejs" />
+        <option value="$PROJECT_DIR$/script/run-cotent.bat" />
+        <option value="$PROJECT_DIR$/trainning/handler.py" />
+        <option value="$PROJECT_DIR$/script/run-all.bat" />
+        <option value="$PROJECT_DIR$/spider/news.163.com/content.js" />
         <option value="$PROJECT_DIR$/dotwoweb/public/js/main.js" />
+        <option value="$PROJECT_DIR$/script/run-list.bat" />
+        <option value="$PROJECT_DIR$/script/run-analyse-all.bat" />
+        <option value="$PROJECT_DIR$/script/run-comment-user.bat" />
+        <option value="$PROJECT_DIR$/script/run-app.bat" />
+        <option value="$PROJECT_DIR$/script/run-content.bat" />
+        <option value="$PROJECT_DIR$/dotwoweb/views/index.ejs" />
+        <option value="$PROJECT_DIR$/spider/news.163.com/comment-user.js" />
+        <option value="$PROJECT_DIR$/spider/grab.js" />
       </list>
     </option>
   </component>
@@ -261,7 +254,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1874" />
-    <option name="height" value="1092" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -278,7 +271,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -289,6 +281,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dotwo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trainning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,6 +329,30 @@
               <option name="myItemId" value="dotwo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dotwo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dotwo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dotwo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dotwo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dotwoweb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -356,84 +376,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dotwo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dotwo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dotwoweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dotwo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dotwo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dotwoweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dotwo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dotwo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dotwoweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dotwo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dotwo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,7 +389,16 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="G:\node\node.exe" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.content.js">
+    <configuration default="false" name="list.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="list.js" working-dir="$PROJECT_DIR$/spider/news.163.com">
+      <method />
+    </configuration>
+    <configuration default="false" name="comment-user.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="comment-user.js" working-dir="$PROJECT_DIR$/spider/news.163.com">
+      <method />
+    </configuration>
+    <configuration default="false" name="content.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="content.js" working-dir="$PROJECT_DIR$/spider/news.163.com">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -504,6 +458,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.list.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.comment-user.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.content.js" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.content.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.comment-user.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.list.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -518,32 +484,37 @@
       <workItem from="1493533360548" duration="27000" />
       <workItem from="1493533404330" duration="14941000" />
       <workItem from="1493617777153" duration="14265000" />
+      <workItem from="1493830389486" duration="15674000" />
+      <workItem from="1493876483685" duration="872000" />
+      <workItem from="1493877596549" duration="1175000" />
+      <workItem from="1493882431172" duration="290000" />
+      <workItem from="1494260821899" duration="596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29233000" />
+    <option name="totallyTimeSpent" value="47840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1092" extended-state="1" />
+    <frame x="-8" y="-8" width="1874" height="1084" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15877287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,11 +528,339 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spider/news.163.com/list.js">
+    <entry file="file://$PROJECT_DIR$/dotwoweb/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+          <folding>
+            <marker date="1493872390102" expanded="true" signature="2160:2220" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:3496" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:3547" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:3648" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5168" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5206" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5226" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5240" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2245:3462" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2291:3438" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2332:3415" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2332:3433" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3301" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3312" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3322" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3415" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2420:2547" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2420:2569" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2420:2616" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3216" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3240" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3280" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3281" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3301" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2970:2992" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2970:3033" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3078:3144" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3078:3194" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3114:3126" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:4199" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:4216" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:4260" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:5107" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:5166" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:5168" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3741:4181" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4261:5107" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4466" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4467" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4490" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4603" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4684:4839" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4914:5069" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="5168:5169" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="5168:5206" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotwoweb/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/news.163.com/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/news.163.com/comment-user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="46" column="76" lean-forward="false" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-app.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-content.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-all.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-comment-user.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-analyse-all.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-list.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotwoweb/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="76" lean-forward="true" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+          <folding>
+            <marker date="1493872390102" expanded="true" signature="2160:2220" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:3496" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:3547" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:3648" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5168" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5206" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5226" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5240" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2245:3462" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2291:3438" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2332:3415" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2332:3433" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3301" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3312" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3322" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3415" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2420:2547" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2420:2569" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2420:2616" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3216" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3240" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3280" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3281" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3301" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2970:2992" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2970:3033" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3078:3144" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3078:3194" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3114:3126" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:4199" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:4216" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:4260" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:5107" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:5166" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:5168" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3741:4181" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4261:5107" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4466" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4467" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4490" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4603" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4684:4839" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4914:5069" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="5168:5169" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="5168:5206" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/news.163.com/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/news.163.com/comment-user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="46" column="76" lean-forward="true" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-app.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-content.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-all.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/grab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3456">
+          <caret line="128" column="13" lean-forward="true" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/news.163.com/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotwoweb/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3456">
+          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotwoweb/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2673">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="2" selection-end-line="101" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotwoweb/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotwoweb/views/index-backup.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotwoweb/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493872390102" expanded="true" signature="2160:2220" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:3496" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:3547" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:3648" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5168" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5206" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5226" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5240" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2245:3462" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2291:3438" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2332:3415" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2332:3433" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3301" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3312" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3322" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3415" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2420:2547" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2420:2569" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2420:2616" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3216" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3240" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3280" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3281" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3301" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2970:2992" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2970:3033" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3078:3144" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3078:3194" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3114:3126" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:4199" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:4216" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:4260" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:5107" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:5166" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:5168" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3741:4181" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4261:5107" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4466" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4467" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4490" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4603" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4684:4839" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4914:5069" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="5168:5169" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="5168:5206" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/news.163.com/comment-user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/grab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="81" column="33" lean-forward="true" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/news.163.com/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -577,14 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3996">
           <caret line="148" column="28" lean-forward="false" selection-start-line="148" selection-start-column="28" selection-end-line="148" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -595,18 +886,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dotwoweb/model/model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,17 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/news.163.com/content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="e#1308#1394#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,115 +904,195 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dotwoweb/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="2" selection-end-line="101" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/grab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2187">
-          <caret line="81" column="33" lean-forward="true" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/news.163.com/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/news.163.com/comment-user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dotwoweb/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dotwoweb/views/index-backup.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="55" />
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotwoweb/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotwoweb/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="2" selection-end-line="101" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainning/handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1909">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/news.163.com/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-list.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-app.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-content.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dotwoweb/views/index.ejs">
+    <entry file="file://$PROJECT_DIR$/script/run-comment-user.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-all.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dotwoweb/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="131" column="28" lean-forward="false" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+        <state relative-caret-position="648">
+          <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
           <folding>
-            <marker date="1493631478142" expanded="true" signature="1630:1690" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1630:2966" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1630:3017" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1630:3118" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1630:4537" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1630:4575" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1630:4595" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1630:4609" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1715:2932" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1761:2908" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1802:2885" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1802:2903" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1848:2771" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1848:2782" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1848:2792" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1848:2885" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1890:2017" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1890:2039" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="1890:2086" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="2225:2686" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="2225:2710" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="2225:2750" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="2225:2751" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="2225:2771" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="2440:2462" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="2440:2503" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="2548:2614" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="2548:2664" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="2584:2596" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="3135:3669" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="3135:3686" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="3135:3730" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="3135:4476" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="3135:4535" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="3135:4537" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="3211:3651" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="3731:4476" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="3811:3922" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="3811:3972" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="4053:4208" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="4283:4438" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="4537:4538" ph="..." />
-            <marker date="1493631478142" expanded="true" signature="4537:4575" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:2220" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:3496" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:3547" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:3648" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5168" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5206" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5226" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2160:5240" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2245:3462" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2291:3438" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2332:3415" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2332:3433" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3301" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3312" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3322" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2378:3415" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2420:2547" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2420:2569" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2420:2616" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3216" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3240" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3280" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3281" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2755:3301" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2970:2992" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="2970:3033" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3078:3144" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3078:3194" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3114:3126" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:4199" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:4216" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:4260" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:5107" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:5166" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3665:5168" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="3741:4181" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4261:5107" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4466" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4467" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4490" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4341:4603" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4684:4839" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="4914:5069" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="5168:5169" ph="..." />
+            <marker date="1493872390102" expanded="true" signature="5168:5206" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotwoweb/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="39" column="54" lean-forward="false" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run-analyse-all.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainning/analyse-all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/grab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4455">
+          <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/news.163.com/comment-user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="93" lean-forward="false" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/news.163.com/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

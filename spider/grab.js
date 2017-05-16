@@ -148,6 +148,7 @@ var grab = {
                     }
                 });
             });
+            return spider;
         };
 
         // 封装数据库插入操作
@@ -164,7 +165,14 @@ var grab = {
         spider.getOneUndisposedNews = function () {
             mover.connection.query('select * from newslist where ishandle = 0 limit 1', function (err, result) {
                 if (err) {
+                    onsole.log(222);
                     console.log(err);
+                    mover.connection.destroy();
+                    process.exit(1);
+                } else if(!result){
+                    console.log("无未爬取新闻列表");
+                    mover.connection.destroy();
+                    process.exit(1);
                 } else {
                     spider.undisposedNews = result[0];
                     spider.loopTime = 0;

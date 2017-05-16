@@ -135,27 +135,31 @@ class MyFrame(wx.Frame):
                 print data, " ---- ", attitude
                 self.forecast_text.Clear()
                 self.forecast_text.WriteText(attitude)
-                self.han.defAComment(res)
+                self.han.defACommentWithWords(res)
 
 
     def onClickHappy(self, event):
-        self.han.defAComment(0)
+        self.han.defACommentWithWords(0)
+        self.han.model.addToNewsListCount(0)
         self.nextComment()
 
     def onClickAngry(self, event):
-        self.han.defAComment(1)
+        self.han.defACommentWithWords(1)
+        self.han.model.addToNewsListCount(1)
         self.nextComment()
 
     def onClickFear(self, event):
-        self.han.defAComment(2)
+        self.han.defACommentWithWords(2)
+        self.han.model.addToNewsListCount(2)
         self.nextComment()
 
     def onClickSad(self, event):
-        self.han.defAComment(3)
+        self.han.defACommentWithWords(3)
+        self.han.model.addToNewsListCount(3)
         self.nextComment()
 
     def onClickJump(self, event):
-        self.han.defAComment(16)
+        self.han.defACommentWithWords(16)
         self.nextComment()
 
     def nextComment(self):

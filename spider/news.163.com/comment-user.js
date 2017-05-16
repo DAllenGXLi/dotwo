@@ -4,11 +4,11 @@
 
 // 还需要完善loop，end，done，不能检验loop终止，不能自动设置爬取过新闻ishandle为1
 var grab = require('./../grab.js');
-spider = grab.newSpider();
+var spider = grab.newSpider();
 
 spider
     .init(function () {
-        spider.clearComments();
+        // spider.clearComments();
     })
     .getOneUndisposedNews()
     .loop(function (undisposedNews, loopTime) {
@@ -57,4 +57,5 @@ spider
     })
     .end(function () {
         spider.handleNewsDone();
-    })
+    });
+

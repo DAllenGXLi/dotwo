@@ -16,7 +16,15 @@ var displayNewsList = function (count, offset) {
                 // 设置监听
                 $('#collapsed_' + data[i].id).click(function () {
                     var id = $(this).attr('id').substring(10);
-                    drawEmotionDistribution(id);
+                    if ($('#echarts_emotion_' + id).attr('loaded') == "true") {
+                        return;
+                    }
+                    var happy = Number($('#echarts_emotion_' + id).attr('happy'));
+                    var sad = Number($('#echarts_emotion_' + id).attr('sad'));
+                    var angry = Number($('#echarts_emotion_' + id).attr('angry'));
+                    var fear = Number($('#echarts_emotion_' + id).attr('fear'));
+                    drawEmotionDistribution(id, happy, sad, angry, fear);
+                    $('#echarts_emotion_' + id).attr('loaded', "true");
                 });
             }
         }
@@ -36,7 +44,7 @@ var getANewsHtml = function (data) {
             imgs_html += '<img class="news_img" src="' + imgs[i] + '" alt="">';
         }
     }
-    console.log(imgs_html);
+
     var html = '<div class="panel panel-default">\
                 <div class="panel-heading" role="tab" id="heading_' + data.id + '">\
                     <h4 class="panel-title">\
@@ -75,7 +83,7 @@ var getANewsHtml = function (data) {
                  <div class="tab-content">\
                     <div role="tabpanel" class="tab-pane active" id="emotion">\
                         <!-- 为ECharts准备一个具备大小（宽高）的Dom -->\
-                        <div id="echarts_emotion_' + data.id + '"></div>\
+                        <div loaded="false" id="echarts_emotion_' + data.id + '" happy="'+data.happy+'" sad="'+data.sad+'" angry="'+data.angry+'" fear="'+data.fear+'"></div>\
                     </div>\
                     <div role="tabpanel" class="tab-pane" id="emotion-locaton">\
                         <!-- 为ECharts准备一个具备大小（宽高）的Dom -->\
@@ -98,7 +106,7 @@ var getANewsHtml = function (data) {
 /************************************************************************************/
 // description: 调用此接口以绘制情感分布图
 /************************************************************************************/
-var drawEmotionDistribution = function (id) {
+var drawEmotionDistribution = function (id, happy, sad, angry, fear) {
     $('#echarts_emotion_' + id).attr("style", "height:300px; width:" + document.body.clientWidth/1.05 + "px");
     // 基于准备好的dom，初始化echarts实例
     var myChart = echarts.init(document.getElementById('echarts_emotion_' + id));
@@ -126,10 +134,10 @@ var drawEmotionDistribution = function (id) {
                 radius : '55%',
                 center: ['50%', '60%'],
                 data:[
-                    {value:2252, name:'喜悦'},
-                    {value:6421, name:'悲伤'},
-                    {value:4356, name:'恐惧'},
-                    {value:5412, name:'愤怒'}
+                    {value:happy, name:'喜悦'},
+                    {value:sad, name:'悲伤'},
+                    {value:fear, name:'恐惧'},
+                    {value:angry, name:'愤怒'}
                 ],
                 itemStyle: {
                     emphasis: {

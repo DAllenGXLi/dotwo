@@ -4,6 +4,7 @@
 #
 
 import MySQLdb
+import sys
 
 class Model:
     def __init__(self, host, username, password, dbname):
@@ -24,9 +25,14 @@ class Model:
 
     # 获取一条记录， 同时将attitude暂时设置为0，为了预防重复修改
     def getAComment(self):
-        self.cursor.execute("select id, content from comments where attitude is null limit 1")
-        data = self.cursor.fetchone()
-        self.currentId = data[0]
+        self.cursor.execute("select id, content, news_id from comments where attitude is null limit 1")
+        try:
+            data = self.cursor.fetchone()
+            self.currentId = data[0]
+            self.currentNewsId = data[2]
+        except:
+            print "no comment!"
+            raise
         self.cursor.execute("update comments set attitude=0 where id=" + data[0])
         # self.db.rollback()
         self.db.commit()
@@ -46,7 +52,16 @@ class Model:
         return data
 
     def defAComment(self, type):
-        query = "update comments set attitude=" + str(type) + " where id=" + str(self.currentId)
+        # query = "update comments set attitude=" + str(type) + " where id=" + str(self.currentId)
+        query = "delete from comments where id='" + str(self.currentId) + "'"
+        # 用于统计学习次数
+        # self.handleStatistics(type)
+        # print script
+        self.cursor.execute(query)
+        self.db.commit()
+
+    def defACommentWithWords(self, type):
+        query = "update comments set attitude=" + str(type) + " where id='" + str(self.currentId) + "'"
         # 用于统计学习次数
         self.handleStatistics(type)
         # print script
@@ -71,6 +86,15 @@ class Model:
     def handleStatistics(self, type):
         typename = self.getTypeName(type)
         query = "update statistics set count=count+1 where id='" + typename + "'"
+        self.cursor.execute(query)
+        self.db.commit()
+
+    # 将统计结果添加到newslist表情感数量里面
+    def addToNewsListCount(self, type):
+        if type < 0 or type > 3:
+            return False
+        typeName = self.getTypeName(type)
+        query = "update newslist set " + typeName + "=" + typeName + "+1 where id='" + self.currentNewsId + "'"
         self.cursor.execute(query)
         self.db.commit()
 

@@ -4,6 +4,7 @@
 #
 
 import jieba
+import time
 from model import Model
 
 class Handler:
@@ -24,7 +25,10 @@ class Handler:
     # 此函数获取一条评论并分词
     def getAComment(self):
         self.words = []
-        data = self.model.getAComment()
+        try:
+            data = self.model.getAComment()
+        except:
+            raise
         seg_list = jieba.cut(data[1])
         for word in seg_list:
             if self.checkWord(word):
@@ -35,15 +39,20 @@ class Handler:
     def checkWord(self, word):
         return self.model.checkWord(word)
 
-    # 定义该评论的态度,快乐0 愤怒1 恐惧2 悲哀3
-    def defAComment(self, type):
-        self.model.defAComment(type)
+    # 定义该评论的态度,快乐0 愤怒1 恐惧2 悲哀3, 并且把结果添加到词频统计中
+    def defACommentWithWords(self, type):
+        self.model.defACommentWithWords(type)
         if type < 10:
             self.handleWords(type)
+
+    # 定义该评论的态度,快乐0 愤怒1 恐惧2 悲哀3, 不把结果添加到词频统计中
+    def defACommen(self, type):
+        self.model.defAComment(type)
 
     # 进行词频记录
     def handleWords(self, type):
         for word in self.words:
+            print u"正在添加 '" + word + u"' 的词频统计"
             self.model.handleWord(word, type)
 
     # 计算最高概率
@@ -79,9 +88,27 @@ class Handler:
         else:
             return 16
 
-# han = handler()
-# han.initDB("localhost", "dou", "317416", "dotwo")
+    # 分析所有评论情感，并且添加到newslist统计中
+    def analyzeAll(self):
+        while True:
+            try:
+                self.getAComment()
+            except:
+                break
+            try:
+                res = self.analyzeAttitude()
+            except:
+                continue
+            self.defACommen(res)
+            self.model.addToNewsListCount(res)
+
+
+
+# han = Handler()
+# han.initDB("localhost", "root", "317416", "dotwo")
 # han.connectDB()
+# han.analyzeAll()
+
 # # 获取一条评论
 # data = han.getAComment()
 # # 定义一条评论态度， 并且做词频记录
